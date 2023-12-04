@@ -1,0 +1,87 @@
+@media screen  and (max-width: 992px){
+    .navbar ul{
+        width:80%;
+    }
+   
+    .all1 , .all2 , .all3 {width: 50%;}
+    .uiux , .App , .product , .uiux2 {  
+       
+        width: 50%;
+       }
+     .Services-content{   flex-direction: column;
+            /* width: 50%; */}
+     .about-border{
+                border: 10px solid transparent;}
+    /* .profile-about{left: -20px;} */
+     .profileAbout-left{ width: 50%; }       
+    .profileAbout-right { width: 50%;}
+                     
+      
+}
+
+
+@media screen  and (max-width: 768px){
+    .navbar{
+        flex-direction: column;
+    }
+    ul {
+        flex-direction: column;
+    }
+    .Services-content , .blog-content , #About {
+        flex-direction: column;
+    }
+    .name-email{
+        flex-direction: column;
+    }
+    .name-email .formcontrol  {
+        width: 100%;
+    }
+    
+    .form textarea , .form .subject{
+      width: 80%;
+    }  
+    #count ,.All , .WEB-DESIGN ,.BRANDING ,.GRAPHIC{
+        flex-direction: column;
+    }  
+    .all1 , .all2 , .all3 {width: 100%;}
+    .about-border{
+        border: 10px solid transparent;}
+
+   .about-photo{
+    width: 100%;
+   }
+   .about-content{
+    width: 100%; 
+}
+
+.container2{
+    width: 70%;
+    flex-direction: column;
+    padding: 20px;
+    padding-right: 5px;
+   
+}
+.img-test{
+    width: 40%;
+}
+    .img-test img{
+        width: 80%;    
+        left: 100px;
+ }
+ .container2 .txt-test{
+    width: 100%;
+    text-align: left;
+  
+    
+ }
+ .profileAbout-left{ 
+    width: 100%;}
+
+
+
+
+
+
+
+
+}
